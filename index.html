@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <span>RJE</span>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="theme-toggle">
+        <input type="checkbox" id="dark-mode-toggle">
+        <label for="dark-mode-toggle" class="theme-toggle-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </label>
+    </div>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="profile-container">
+                <div class="profile-wrapper">
+                    <img src=".\image\profile-picture.jpg" alt="ESPEJO, ROBIN JAMES" class="profile-image">
+                    <div class="profile-overlay"></div>
+                </div>
+                <div class="profile-content">
+                    <h1>ESPEJO, ROBIN JAMES L.</h1>
+                    <p class="tagline">Web Developer | Creative Thinker</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <p>I am a passionate developer with a deep enthusiasm for creating innovative web solutions that combine functionality and elegance. I thrive on transforming complex problems into intuitive, visually appealing interfaces that enhance user experiences. With a commitment to continuous learning and a knack for problem-solving, I stay ahead of industry trends to deliver efficient, cutting-edge solutions. Driven by the belief in technology's power to simplify and enrich lives, I aim to craft web experiences that leave a lasting impact.</p>
+            </div>
+        </section>
+        <section id="education" class="section">
+            <div class="section-header">
+                <h2>Education</h2>
+                <p>Academic background and continuous learning in web development</p>
+            </div>
+            <div id="timeline" class="timeline"></div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-container">
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+            </div>
+            <div id="projects-container"></div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Let's collaborate and bring your ideas to life</p>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/robin-james-espejo-0aa07b282/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Sick-RLE" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/sick_rje/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 ESPEJO, ROBIN JAMES L. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/jscript.js"></script>
+</body>
+</html>
