@@ -56,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
             institution: "University of the Cordilleras",
             location: "Governor Pack Road, Baguio City",
             program: "STEM | BIST(Web Development)",
-            graduationYear: "2024-2025",
             details: [
                 "Specializing in Web Development",
                 "STEM Program",
@@ -76,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul class="details">
                     ${edu.details.map(detail => `<li>${detail}</li>`).join('')}
                 </ul>
-                <span class="timeline-year">${edu.graduationYear}</span>
             </div>
         `;
         educationTimeline.appendChild(eduElement);
